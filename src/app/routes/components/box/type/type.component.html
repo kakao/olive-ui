@@ -1,0 +1,91 @@
+<div class="flex flex-row justify-items-center items-center">
+    <div class="text-3xl font-bold tracking-tight leading-tight whitespace-nowrap">Type</div>
+    <div class="flex items-baseline ml-16 text-gray-600 text-md flex-wrap">
+    </div>
+</div>
+
+
+<div class="my-24 font-semibold text-gray-600">기본형 - 주로 리스트 및 안내사항 표기시에 사용하며, 케이스에 따라 적절한 컬러 사용</div>
+<div class='my-4'>
+<olv-box olvBoxType='basic'
+         olvMessage='가장 기본적으로 사용. 여러 리스트를 그룹핑 하거나 본문보다 구분 및 강조가 필요한 경우에 사용. 여러 컴포넌트와 조합 가능'></olv-box>
+</div>
+<div class='my-4'>
+<olv-box olvBoxType='info'
+         olvMessage='일련의 히스토리를 안내하거나, 중요도가 낮은 안내사항의 경우 사용'
+         olvIcon='icon-check'>
+</olv-box>
+</div>
+<div class='my-4'>
+<olv-box olvBoxType='error'
+         olvMessage='페이지의 상/하단에서 사용자에게 필수적으로 전달해야 할 안내사항이 있을 때 사용. Green보다 더 강조 및 경고의 정도가 큼'
+         olvIcon='icon-error'
+         olvCloseable='true'>
+</olv-box>
+</div>
+<olv-box olvBoxType='desc'
+         olvMessage='일련의 히스토리를 안내하거나, 중요도가 낮은 안내사항의 경우 사용'>
+</olv-box>
+
+<div class='mb-5'>
+    <span class='text-sm text-gray-600'>
+        ※ 박스 내에서 아이콘, 닫기 버튼 등은 필요에 따라 자유롭게 조합하여 사용 가능합니다.
+    </span>
+</div>
+<div class='codeBtn'>
+    <div class='inline-block mx-4 text-md hover:text-olive-400' (click)="showArea()" title='Copy Code'>
+        <mat-icon [svgIcon]="'CodeCopyIcon'" class='align-middle mb-1'></mat-icon>
+        <span class='ml-1'>Show Code</span>
+    </div>
+    <div class='inline-block mx-4 text-md hover:text-olive-400' (click)='copyText(basic)' title='Show Code'>
+       <mat-icon [svgIcon]="'CodeShowIcon'" class='align-middle mb-1'></mat-icon>
+        <span class='ml-1'>Copy Code</span>
+    </div>
+</div>
+<ng-container *ngIf="isShown">
+<ul>
+<div>
+    <pre><code [highlight]='basic' [languages]="['html']"></code></pre>
+</div>
+</ul>
+</ng-container>
+
+<div class="mt-40 font-semibold text-gray-600">강조형 - 2px Line 적용</div>
+<div class='my-4'>
+<olv-box olvBoxType='strong-basic'
+         olvMessage='해결된 항목에 대한 그룹핑 기본상태(Ex. Scan > Components > Resolved Issue)'></olv-box>
+</div>
+<div class='my-4'>
+<olv-box olvBoxType='strong-error'
+         olvMessage='미해결 이슈, 오류 또는 경고 항목 등에 대한 그룹핑 Hover / Press 상태'></olv-box>
+</div>
+<div class='my-4'>
+<olv-box olvBoxType='strong-info'
+         olvMessage='고지문 안내 사항 등 중요한 내용의 강조 등에 사용하며, 단독으로 사용(Scan > Report > 고지문 에서만 사용됨)'></olv-box>
+</div>
+<div class='mb-5'>
+    <span class='text-sm text-gray-600'>
+        ※ 각각의 기본 상태는 단독으로 사용이 가능하며, Press 상태는 반드시 기본 상태와 함께 사용됩니다.
+    </span>
+</div>
+
+<div class='codeBtn'>
+    <div class='inline-block mx-4 text-md hover:text-olive-400' (click)="showStrongArea()" title='Copy Code'>
+        <mat-icon [svgIcon]="'CodeCopyIcon'" class='align-middle mb-1'></mat-icon>
+        <span class='ml-1'>Show Code</span>
+    </div>
+    <div class='inline-block mx-4 text-md hover:text-olive-400' (click)='copyText(strongBasic)' title='Show Code'>
+        <mat-icon [svgIcon]="'CodeShowIcon'" class='align-middle mb-1'></mat-icon>
+        <span class='ml-1'>Copy Code</span>
+    </div>
+</div>
+<ng-container *ngIf="isStrongShown">
+    <ul>
+        <li class='relative border-b'>
+<div>
+<pre><code [highlight]='strongBasic' [languages]="['html']"></code></pre>
+</div>
+        </li>
+    </ul>
+</ng-container>
+

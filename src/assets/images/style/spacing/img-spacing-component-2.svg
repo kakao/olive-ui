@@ -1,0 +1,17 @@
+<svg width="272" height="42" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#EEE" d="M0 0h64v42H0z"/>
+        <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="13" letter-spacing="-.2" fill="#222">
+                                <tspan x="8" y="24">컴포넌트</tspan>
+                            </text>
+        <path fill="#EEE" d="M68 0h136v42H68z"/>
+        <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="13" letter-spacing="-.2" fill="#222" transform="translate(68)">
+                                <tspan x="44" y="24">컴포넌트</tspan>
+                            </text>
+        <path fill="#EEE" d="M208 0h64v42h-64z"/>
+        <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="13" letter-spacing="-.2" fill="#222" transform="translate(208)">
+                                <tspan x="8" y="24">컴포넌트</tspan>
+                            </text>
+        <path stroke="#FF3340" fill-opacity=".203" fill="#FF3340" d="M64.5.5h3v41h-3zM204.5.5h3v41h-3z"/>
+    </g>
+</svg>

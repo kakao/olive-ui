@@ -1,0 +1,69 @@
+<div class='flex flex-row justify-items-center items-center mt-60'>
+    <div class="text-3xl font-bold tracking-tight leading-tight whitespace-nowrap">Style</div>
+    <div class="flex items-baseline ml-16 text-gray-600 text-md flex-wrap">
+        Box에 사용된 스타일과 사이 간격에 대한 정보를 제공합니다.
+    </div>
+</div>
+
+<div class="mt-24 font-semibold text-gray-600">Color</div>
+<div class="flex text-sm">
+    <div class="bg-gray-100 border border-gray-100 px-4 m-1 w-[60px] h-[21px] flex items-center justify-center">#DDDDDD</div>
+    <div class="bg-lightgray-600 border border-lightgray-600 px-4 m-1 w-[60px] h-[21px] flex items-center justify-center">#EEEEEE</div>
+    <div class="bg-lightgray-100 border border-gray-100 px-4 m-1 w-[60px] h-[21px] flex items-center justify-center">#FFFFFF</div>
+    <div class="bg-olive-400 border border-olive-400 px-4 m-1 w-[60px] h-[21px] flex items-center justify-center text-white font-thin">#038C65</div>
+    <div class="bg-olive-200 border border-olive-200 px-4 m-1 w-[60px] h-[21px] flex items-center justify-center">#CCE6DF</div>
+    <div class="bg-wrong-button border border-wrong-button px-4 m-1 w-[60px] h-[21px] flex items-center justify-center text-white font-thin">#FF3340</div>
+    <div class="bg-wrong-line border border-wrong-line px-4 m-1 w-[60px] h-[21px] flex items-center justify-center text-gray-700">#FF838B</div>
+    <div class="bg-wrong-bg border border-wrong-bg px-4 m-1 w-[60px] h-[21px] flex items-center justify-center">#FFF4F4</div>
+</div>
+
+<div class="my-24 font-semibold text-gray-600">Spacing</div>
+
+<olv-box olvBoxType='basic'
+         olvMessage='단순한 안내사항, 프로젝트 목록 그룹핑 등 기본적으로는 상하 24px, 좌우 32px의 여백을 적용'
+         [olvContentMessage]='MessageTemplate'>
+</olv-box>
+<ng-template #MessageTemplate>
+    - 단, 1줄일 경우 최소 64px 내에서 middle 정렬을 기본으로 함<br>
+    - 컨텐츠 영역의 width 100% 적용이 기본이지만, 필요에 따라 적절하게 사이즈 조정하여 사용 가능</ng-template>
+
+
+<div class="flex flex-row my-24">
+    <div class='basis-1/2'>
+        <olv-box olvBoxType='strong-error'
+                 [olvMessageTmpl] = 'StrongTmpl'
+                 [olvContentMessage]='StrongErrorTmpl'>
+        </olv-box>
+        <ng-template #StrongTmpl>
+            <div class='text-3xl font-bold'>Component</div>
+        </ng-template>
+        <ng-template #StrongErrorTmpl>
+            <div class='text-red-fg font-bold text-lg'>확인이 필요한 Component : 99 개</div>
+            <div class='text-lg'>자동 수집된 Component : 99개</div>
+        </ng-template>
+    </div>
+    <div class='basis-1/2 text-sm text-gray-600 self-end pl-20'>
+        Scan > Component Issue 처럼, 영역 내 여러 항목들과 쓰이면서 <br>
+        심플하게 데이터를 보여줘야하는 경우, 상하 여백을 32px로 적용하여 가독성을 확보
+    </div>
+</div>
+
+<div class='codeBtn'>
+    <div class='inline-block mx-4 text-md hover:text-olive-400' (click)="showArea()" title='Copy Code'>
+        <mat-icon [svgIcon]="'CodeCopyIcon'" class='align-middle mb-1'></mat-icon>
+        <span class='ml-1'>Show Code</span>
+    </div>
+    <div class='inline-block mx-4 text-md hover:text-olive-400' (click)='copyText(strong)' title='Show Code'>
+        <mat-icon [svgIcon]="'CodeShowIcon'" class='align-middle mb-1'></mat-icon>
+        <span class='ml-1'>Copy Code</span>
+    </div>
+</div>
+<ng-container *ngIf="isShown">
+    <ul>
+        <li class='relative border-b'>
+<div>
+<pre><code [highlight]="strong" [languages]="['html']"></code></pre>
+</div>
+        </li>
+    </ul>
+</ng-container>

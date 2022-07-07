@@ -1,0 +1,71 @@
+<svg width="896" height="291" viewBox="0 0 896 291" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="20" letter-spacing="-.2" fill="#222">
+                            <tspan x="0" y="91">5 Issues Found</tspan>
+                        </text>
+            <rect stroke="#FF3340" fill="#FFF" x=".5" y="113.5" width="679" height="177" rx="8"/>
+            <text font-family="SpoqaHanSansNeo-Bold, Spoqa Han Sans Neo" font-size="20" font-weight="bold" letter-spacing="-.2" fill="#222">
+                            <tspan x="64" y="164">Component</tspan>
+                        </text>
+            <g transform="translate(32 145)">
+                <rect stroke="#222" stroke-width="2" x="1" y="1" width="22" height="22" rx="2"/>
+                <path fill="#222" d="M6 6h2v2H6zM6 11h2v2H6zM6 16h2v2H6z"/>
+                <rect fill="#222" x="10" y="6" width="8" height="2" rx="1"/>
+                <rect fill="#222" x="10" y="11" width="8" height="2" rx="1"/>
+                <rect fill="#222" x="10" y="16" width="8" height="2" rx="1"/>
+            </g>
+            <text font-family="SpoqaHanSansNeo-Bold, Spoqa Han Sans Neo" font-size="18" font-weight="bold" letter-spacing="-.225" fill="#FF3340">
+                            <tspan x="32" y="224">확인이 필요한 Component : 99개</tspan>
+                        </text>
+            <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="18" letter-spacing="-.225" fill="#222">
+                            <tspan x="32" y="254">자동 수집된 Component : 99개</tspan>
+                        </text>
+            <g transform="translate(299 209)">
+                <path d="M0 0h18v18H0z"/>
+                <circle stroke="#FF3340" cx="8.5" cy="8.5" r="8"/>
+                <path fill="#FF3340" d="M7 11.417 9.857 8.5 7 5.583 7.571 5 11 8.5 7.571 12z"/>
+            </g>
+            <path fill="#DDD" d="M0 47h896v1H0z"/>
+            <path d="M0 0h133v48H0z"/>
+            <text font-family="SpoqaHanSansNeo-Bold, Spoqa Han Sans Neo" font-size="18" font-weight="bold" letter-spacing="-.2" fill="#038C65">
+                            <tspan x="24" y="29">Summary</tspan>
+                        </text>
+            <path fill="#038C65" d="M0 46h133v2H0z"/>
+            <path d="M133 0h145v48H133z"/>
+            <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="18" letter-spacing="-.2" fill="#222">
+                            <tspan x="156" y="29">Component</tspan>
+                        </text>
+            <path d="M278 0h112v48H278z"/>
+            <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="18" letter-spacing="-.2" fill="#222">
+                            <tspan x="303.5" y="29">License</tspan>
+                        </text>
+            <path d="M390 0h105v48H390z"/>
+            <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="18" letter-spacing="-.2" fill="#222">
+                            <tspan x="414" y="29">Report</tspan>
+                        </text>
+        </g>
+        <path fill="#038C65" opacity=".1" d="M0 72h896v25H0zM0 113h896v178H0zM0 0h896v48H0z"/>
+        <path d="M84 72v-1h4V49h-4v-1h9v1h-4v22h4v1h-9zM84 113v-1h4V98h-4v-1h9v1h-4v14h4v1h-9z" fill="#FF3340" fill-rule="nonzero"/>
+        <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="12" fill="#FF3340">
+                            <tspan x="93" y="63">24</tspan>
+                        </text>
+        <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="12" fill="#FF3340">
+                            <tspan x="93" y="107">16</tspan>
+                        </text>
+        <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="12" letter-spacing="-.2" fill="#555">
+                            <tspan x="795" y="27">타이틀(탭) 영역</tspan>
+                        </text>
+        <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="12" letter-spacing="-.2" fill="#555">
+                            <tspan x="710" y="137">컨텐츠 영역</tspan>
+                            
+                            <tspan x="710" y="177">타이틀과 그룹핑 컨텐츠 사이에</tspan>
+                            <tspan x="710" y="197">텍스트가 오게 되는 경우</tspan>
+                            <tspan x="710" y="217">텍스트와 그룹핑 컨텐츠 사이에</tspan>
+                            <tspan x="710" y="237">16px의 간격을 적용 </tspan>
+                        </text>
+        <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="12" letter-spacing="-.2" fill="#555">
+                            <tspan x="698" y="88">텍스트(서브타이틀, 일반 문구 등)</tspan>
+                        </text>
+    </g>
+</svg>

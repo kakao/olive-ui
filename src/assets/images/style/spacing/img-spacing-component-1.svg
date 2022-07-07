@@ -1,0 +1,76 @@
+<svg width="752" height="166" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#EEE" d="M0 0h96v42H0z"/>
+        <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="13" letter-spacing="-.2" fill="#222">
+                                <tspan x="24" y="24">컴포넌트</tspan>
+                            </text>
+        <path fill="#EEE" d="M0 58h96v42H0z"/>
+        <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="13" letter-spacing="-.2" fill="#222" transform="translate(0 58)">
+                                <tspan x="24" y="24">컴포넌트</tspan>
+                            </text>
+        <path fill="#EEE" d="M160 58h96v42h-96z"/>
+        <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="13" letter-spacing="-.2" fill="#222" transform="translate(160 58)">
+                                <tspan x="24" y="24">컴포넌트</tspan>
+                            </text>
+        <path fill="#EEE" d="M320 58h96v42h-96z"/>
+        <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="13" letter-spacing="-.2" fill="#222" transform="translate(320 58)">
+                                <tspan x="24" y="24">컴포넌트</tspan>
+                            </text>
+        <path fill="#EEE" d="M0 108h96v42H0z"/>
+        <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="13" letter-spacing="-.2" fill="#222" transform="translate(0 108)">
+                                <tspan x="24" y="24">컴포넌트</tspan>
+                            </text>
+        <path fill="#EEE" d="M160 116h96v42h-96z"/>
+        <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="13" letter-spacing="-.2" fill="#222" transform="translate(160 116)">
+                                <tspan x="24" y="24">컴포넌트</tspan>
+                            </text>
+        <path fill="#EEE" d="M320 124h96v42h-96z"/>
+        <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="13" letter-spacing="-.2" fill="#222" transform="translate(320 124)">
+                                <tspan x="24" y="24">컴포넌트</tspan>
+                            </text>
+        <path fill="#EEE" d="M264 0h96v42h-96z"/>
+        <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="13" letter-spacing="-.2" fill="#222" transform="translate(264)">
+                                <tspan x="24" y="24">컴포넌트</tspan>
+                            </text>
+        <path fill="#EEE" d="M536 0h96v42h-96z"/>
+        <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="13" letter-spacing="-.2" fill="#222" transform="translate(536)">
+                                <tspan x="24" y="24">컴포넌트</tspan>
+                            </text>
+        <g>
+            <path fill="#EEE" d="M104 0h96v42h-96z"/>
+            <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="13" letter-spacing="-.2" fill="#222" transform="translate(104)">
+                                <tspan x="24" y="24">컴포넌트</tspan>
+                            </text>
+        </g>
+        <g>
+            <path fill="#EEE" d="M376 0h96v42h-96z"/>
+            <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="13" letter-spacing="-.2" fill="#222" transform="translate(376)">
+                                <tspan x="24" y="24">컴포넌트</tspan>
+                            </text>
+        </g>
+        <g>
+            <path fill="#EEE" d="M656 0h96v42h-96z"/>
+            <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="13" letter-spacing="-.2" fill="#222" transform="translate(656)">
+                                <tspan x="24" y="24">컴포넌트</tspan>
+                            </text>
+        </g>
+        <g fill="#038C65" fill-opacity=".203" stroke="#038C65">
+            <path d="M.5 100.5h95v7H.5z"/>
+        </g>
+        <g fill="#038C65" fill-opacity=".203" stroke="#038C65">
+            <path d="M160.5 100.5h95v7h-95zM160.5 108.5h95v7h-95z"/>
+        </g>
+        <g fill="#038C65" fill-opacity=".203" stroke="#038C65">
+            <path d="M320.5 100.5h95v7h-95zM320.5 108.5h95v7h-95zM320.5 116.5h95v7h-95z"/>
+        </g>
+        <g fill="#038C65" fill-opacity=".203" stroke="#038C65">
+            <path d="M96.5.5h7v41h-7z"/>
+        </g>
+        <g fill="#038C65" fill-opacity=".203" stroke="#038C65">
+            <path d="M360.5.5h7v41h-7zM368.5.5h7v41h-7z"/>
+        </g>
+        <g fill="#038C65" fill-opacity=".203" stroke="#038C65">
+            <path d="M632.5.5h7v41h-7zM640.5.5h7v41h-7zM648.5.5h7v41h-7z"/>
+        </g>
+    </g>
+</svg>

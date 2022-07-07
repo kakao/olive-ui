@@ -1,0 +1,151 @@
+<svg width="896" height="381" viewBox="0 0 896 381" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <filter id="yk1moarfka">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.011765 0 0 0 0 0.549020 0 0 0 0 0.396078 0 0 0 1.000000 0"/>
+        </filter>
+        <filter id="k0v4nbd7ab">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.011765 0 0 0 0 0.549020 0 0 0 0 0.396078 0 0 0 1.000000 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(0 60)">
+            <rect stroke="#EEE" fill="#FFF" x=".5" y=".5" width="287" height="319" rx="16"/>
+            <g transform="translate(24 24)">
+                <rect stroke="#1F48E7" fill="#E5EAFF" x=".5" y=".5" width="76" height="17" rx="8"/>
+                <text font-family="SpoqaHanSansNeo-Bold, Spoqa Han Sans Neo" font-size="11" font-weight="bold" letter-spacing="-.157" fill="#1F48E7">
+                                    <tspan x="8" y="11">RESOLVING</tspan>
+                                </text>
+            </g>
+            <text font-family="SpoqaHanSansNeo-Bold, Spoqa Han Sans Neo" font-size="14" font-weight="bold" letter-spacing="-.2" fill="#888">
+                                <tspan x="25" y="219">Last Scanned</tspan>
+                            </text>
+            <g transform="translate(24 268)">
+                <rect fill="#FFF" width="112" height="36" rx="18"/>
+                <text font-family="SpoqaHanSansNeo-Bold, Spoqa Han Sans Neo" font-size="14" font-weight="bold" letter-spacing="-.318" fill="#038C65">
+                                    <tspan x="44" y="23">Rescan</tspan>
+                                </text>
+                <g filter="url(#yk1moarfka)">
+                    <path d="M20 10h16v16H20z"/>
+                    <path d="M31.889 24A7.117 7.117 0 0 0 35 18.098C35 14.178 31.866 11 28 11s-7 3.178-7 7.098c0 2.031.842 3.863 2.19 5.157" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M30.75 21a.75.75 0 0 1 .75.75v2.75h2.75a.75.75 0 1 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75v-3.5a.75.75 0 0 1 .75-.75z" fill="#222"/>
+                </g>
+            </g>
+            <g transform="translate(152 268)">
+                <rect fill="#FFF" width="112" height="36" rx="18"/>
+                <text font-family="SpoqaHanSansNeo-Bold, Spoqa Han Sans Neo" font-size="14" font-weight="bold" letter-spacing="-.318" fill="#222">
+                                    <tspan x="45" y="23">Report</tspan>
+                                </text>
+                <g transform="translate(21 10)">
+                    <path d="M0 0h16v16H0z"/>
+                    <rect stroke="#222" stroke-width="2" stroke-linejoin="round" x="2" y="1" width="12" height="14" rx="1"/>
+                    <path fill="#222" d="M5 5h6v2H5zM5 9h3v2H5z"/>
+                </g>
+            </g>
+            <text font-family="SpoqaHanSansNeo-Bold, Spoqa Han Sans Neo" font-size="14" font-weight="bold" letter-spacing="-.2" fill="#888">
+                                <tspan x="25" y="154">Components</tspan>
+                            </text>
+            <text font-family="SpoqaHanSansNeo-Bold, Spoqa Han Sans Neo" font-size="18" font-weight="bold" fill="#222">
+                                <tspan x="25" y="182">999</tspan>
+                            </text>
+            <text font-family="SpoqaHanSansNeo-Bold, Spoqa Han Sans Neo" font-size="18" font-weight="bold" fill="#222">
+                                <tspan x="144" y="184">999</tspan>
+                            </text>
+            <text font-family="SpoqaHanSansNeo-Bold, Spoqa Han Sans Neo" font-size="14" font-weight="bold" letter-spacing="-.2" fill="#888">
+                                <tspan x="144" y="154">Licenses</tspan>
+                            </text>
+            <path fill="#EEE" d="M24 126h240v1H24z"/>
+            <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="14" letter-spacing="-.2" fill="#222">
+                                <tspan x="25" y="242">yyyy.mm.dd  hh:mm:ss</tspan>
+                            </text>
+            <text font-family="SpoqaHanSansNeo-Bold, Spoqa Han Sans Neo" font-size="18" font-weight="bold" letter-spacing="-.2" fill="#222">
+                                <tspan x="24" y="77">Sample_App_For_Android …</tspan>
+                            </text>
+            <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="13" letter-spacing="-.2" fill="#FF3340">
+                                <tspan x="24" y="104">Unmapping 4건, License 이슈 2건, 일이…</tspan>
+                            </text>
+            <g transform="translate(236 16)">
+                <circle fill="#FFF" cx="18" cy="18" r="18"/>
+                <path d="M18 8a2.5 2.5 0 0 1 2.5 2.5v.072c0 .216.13.41.336.499.203.09.44.046.591-.102l.05-.05a2.5 2.5 0 1 1 3.537 3.537l-.043.043a.542.542 0 0 0-.109.598.833.833 0 0 1 .054.166.54.54 0 0 0 .442.237h.142a2.5 2.5 0 1 1 0 5h-.072c-.216 0-.41.13-.495.328a.542.542 0 0 0 .098.6l.05.05a2.5 2.5 0 1 1-3.537 3.536l-.043-.043a.545.545 0 0 0-.606-.105.54.54 0 0 0-.328.492v.142a2.5 2.5 0 0 1-5 0 .582.582 0 0 0-.403-.57.539.539 0 0 0-.591.1l-.05.05a2.5 2.5 0 1 1-3.537-3.536l.043-.043a.545.545 0 0 0 .105-.606.54.54 0 0 0-.492-.328H10.5a2.5 2.5 0 0 1 0-5 .582.582 0 0 0 .57-.403.539.539 0 0 0-.1-.591l-.05-.05a2.5 2.5 0 1 1 3.536-3.537l.043.043a.542.542 0 0 0 .598.109.833.833 0 0 1 .166-.054.54.54 0 0 0 .237-.442V10.5A2.5 2.5 0 0 1 18 8zm0 1.667a.833.833 0 0 0-.833.833v.145a2.208 2.208 0 0 1-1.339 2.02.833.833 0 0 1-.22.061 2.212 2.212 0 0 1-2.28-.512l-.05-.05a.833.833 0 1 0-1.18 1.18l.056.057c.631.645.806 1.61.461 2.387a2.214 2.214 0 0 1-2.04 1.445H10.5a.833.833 0 0 0 0 1.667h.145c.88.004 1.674.53 2.017 1.33.365.826.19 1.79-.448 2.443l-.05.05a.833.833 0 1 0 1.18 1.18l.057-.057c.645-.631 1.61-.806 2.387-.461a2.214 2.214 0 0 1 1.445 2.04v.075a.833.833 0 0 0 1.667 0v-.145c.004-.88.53-1.674 1.33-2.017a2.211 2.211 0 0 1 2.443.448l.05.05a.833.833 0 1 0 1.18-1.18l-.057-.057a2.208 2.208 0 0 1-.442-2.435 2.206 2.206 0 0 1 2.021-1.33h.075a.833.833 0 1 0 0-1.667h-.145a2.208 2.208 0 0 1-2.02-1.339.833.833 0 0 1-.061-.22 2.212 2.212 0 0 1 .512-2.28l.05-.05a.833.833 0 1 0-1.18-1.18l-.057.056a2.205 2.205 0 0 1-2.427.445 2.21 2.21 0 0 1-1.339-2.024V10.5A.833.833 0 0 0 18 9.667zm0 5a3.333 3.333 0 1 1 0 6.666 3.333 3.333 0 0 1 0-6.666zm0 5a1.667 1.667 0 1 0 0-3.334 1.667 1.667 0 0 0 0 3.334z" fill="#BBB" fill-rule="nonzero"/>
+            </g>
+        </g>
+        <g transform="translate(320 60)">
+            <rect stroke="#EEE" fill="#FFF" width="288" height="320" rx="16"/>
+            <g transform="translate(24 24)">
+                <rect stroke="#1F48E7" fill="#E5EAFF" x=".5" y=".5" width="76" height="17" rx="8"/>
+                <text font-family="SpoqaHanSansNeo-Bold, Spoqa Han Sans Neo" font-size="11" font-weight="bold" letter-spacing="-.157" fill="#1F48E7">
+                                    <tspan x="8" y="11">RESOLVING</tspan>
+                                </text>
+            </g>
+            <text font-family="SpoqaHanSansNeo-Bold, Spoqa Han Sans Neo" font-size="14" font-weight="bold" letter-spacing="-.2" fill="#888">
+                                <tspan x="25" y="219">Last Scanned</tspan>
+                            </text>
+            <g transform="translate(24 268)">
+                <rect fill="#FFF" width="112" height="36" rx="18"/>
+                <text font-family="SpoqaHanSansNeo-Bold, Spoqa Han Sans Neo" font-size="14" font-weight="bold" letter-spacing="-.318" fill="#038C65">
+                                    <tspan x="44" y="23">Rescan</tspan>
+                                </text>
+                <g filter="url(#k0v4nbd7ab)">
+                    <path d="M20 10h16v16H20z"/>
+                    <path d="M31.889 24A7.117 7.117 0 0 0 35 18.098C35 14.178 31.866 11 28 11s-7 3.178-7 7.098c0 2.031.842 3.863 2.19 5.157" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M30.75 21a.75.75 0 0 1 .75.75v2.75h2.75a.75.75 0 1 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75v-3.5a.75.75 0 0 1 .75-.75z" fill="#222"/>
+                </g>
+            </g>
+            <g transform="translate(152 268)">
+                <rect fill="#FFF" width="112" height="36" rx="18"/>
+                <text font-family="SpoqaHanSansNeo-Bold, Spoqa Han Sans Neo" font-size="14" font-weight="bold" letter-spacing="-.318" fill="#222">
+                                    <tspan x="45" y="23">Report</tspan>
+                                </text>
+                <g transform="translate(21 10)">
+                    <path d="M0 0h16v16H0z"/>
+                    <rect stroke="#222" stroke-width="2" stroke-linejoin="round" x="2" y="1" width="12" height="14" rx="1"/>
+                    <path fill="#222" d="M5 5h6v2H5zM5 9h3v2H5z"/>
+                </g>
+            </g>
+            <text font-family="SpoqaHanSansNeo-Bold, Spoqa Han Sans Neo" font-size="14" font-weight="bold" letter-spacing="-.2" fill="#888">
+                                <tspan x="25" y="154">Components</tspan>
+                            </text>
+            <text font-family="SpoqaHanSansNeo-Bold, Spoqa Han Sans Neo" font-size="18" font-weight="bold" fill="#222">
+                                <tspan x="25" y="182">999</tspan>
+                            </text>
+            <text font-family="SpoqaHanSansNeo-Bold, Spoqa Han Sans Neo" font-size="18" font-weight="bold" fill="#222">
+                                <tspan x="144" y="184">999</tspan>
+                            </text>
+            <text font-family="SpoqaHanSansNeo-Bold, Spoqa Han Sans Neo" font-size="14" font-weight="bold" letter-spacing="-.2" fill="#888">
+                                <tspan x="144" y="154">Licenses</tspan>
+                            </text>
+            <path fill="#EEE" d="M24 126h240v1H24z"/>
+            <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="14" letter-spacing="-.2" fill="#222">
+                                <tspan x="25" y="242">yyyy.mm.dd  hh:mm:ss</tspan>
+                            </text>
+            <text font-family="SpoqaHanSansNeo-Bold, Spoqa Han Sans Neo" font-size="18" font-weight="bold" letter-spacing="-.2" fill="#222">
+                                <tspan x="24" y="77">Sample_App_For_Android …</tspan>
+                            </text>
+            <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="13" letter-spacing="-.2" fill="#FF3340">
+                                <tspan x="24" y="104">Unmapping 4건, License 이슈 2건, 일이…</tspan>
+                            </text>
+            <g transform="translate(236 16)">
+                <circle fill="#FFF" cx="18" cy="18" r="18"/>
+                <path d="M18 8a2.5 2.5 0 0 1 2.5 2.5v.072c0 .216.13.41.336.499.203.09.44.046.591-.102l.05-.05a2.5 2.5 0 1 1 3.537 3.537l-.043.043a.542.542 0 0 0-.109.598.833.833 0 0 1 .054.166.54.54 0 0 0 .442.237h.142a2.5 2.5 0 1 1 0 5h-.072c-.216 0-.41.13-.495.328a.542.542 0 0 0 .098.6l.05.05a2.5 2.5 0 1 1-3.537 3.536l-.043-.043a.545.545 0 0 0-.606-.105.54.54 0 0 0-.328.492v.142a2.5 2.5 0 0 1-5 0 .582.582 0 0 0-.403-.57.539.539 0 0 0-.591.1l-.05.05a2.5 2.5 0 1 1-3.537-3.536l.043-.043a.545.545 0 0 0 .105-.606.54.54 0 0 0-.492-.328H10.5a2.5 2.5 0 0 1 0-5 .582.582 0 0 0 .57-.403.539.539 0 0 0-.1-.591l-.05-.05a2.5 2.5 0 1 1 3.536-3.537l.043.043a.542.542 0 0 0 .598.109.833.833 0 0 1 .166-.054.54.54 0 0 0 .237-.442V10.5A2.5 2.5 0 0 1 18 8zm0 1.667a.833.833 0 0 0-.833.833v.145a2.208 2.208 0 0 1-1.339 2.02.833.833 0 0 1-.22.061 2.212 2.212 0 0 1-2.28-.512l-.05-.05a.833.833 0 1 0-1.18 1.18l.056.057c.631.645.806 1.61.461 2.387a2.214 2.214 0 0 1-2.04 1.445H10.5a.833.833 0 0 0 0 1.667h.145c.88.004 1.674.53 2.017 1.33.365.826.19 1.79-.448 2.443l-.05.05a.833.833 0 1 0 1.18 1.18l.057-.057c.645-.631 1.61-.806 2.387-.461a2.214 2.214 0 0 1 1.445 2.04v.075a.833.833 0 0 0 1.667 0v-.145c.004-.88.53-1.674 1.33-2.017a2.211 2.211 0 0 1 2.443.448l.05.05a.833.833 0 1 0 1.18-1.18l-.057-.057a2.208 2.208 0 0 1-.442-2.435 2.206 2.206 0 0 1 2.021-1.33h.075a.833.833 0 1 0 0-1.667h-.145a2.208 2.208 0 0 1-2.02-1.339.833.833 0 0 1-.061-.22 2.212 2.212 0 0 1 .512-2.28l.05-.05a.833.833 0 1 0-1.18-1.18l-.057.056a2.205 2.205 0 0 1-2.427.445 2.21 2.21 0 0 1-1.339-2.024V10.5A.833.833 0 0 0 18 9.667zm0 5a3.333 3.333 0 1 1 0 6.666 3.333 3.333 0 0 1 0-6.666zm0 5a1.667 1.667 0 1 0 0-3.334 1.667 1.667 0 0 0 0 3.334z" fill="#BBB" fill-rule="nonzero"/>
+            </g>
+        </g>
+        <text font-family="SpoqaHanSansNeo-Bold, Spoqa Han Sans Neo" font-size="24" font-weight="bold" letter-spacing="-.5" fill="#222" transform="translate(0 2)">
+                                <tspan x="0" y="23">진행중</tspan>
+                            </text>
+        <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="14" letter-spacing="-.2" fill="#555" transform="translate(0 2)">
+                                <tspan x="81" y="18">검증이 진행중인 Project 목록</tspan>
+                            </text>
+        <g>
+            <path fill="#038C65" opacity=".1" d="M0 0h896v36H0zM0 60h896v320H0z"/>
+            <path d="M84 60v-1h4V37h-4v-1h9v1h-4v22h4v1h-9z" fill="#FF3340" fill-rule="nonzero"/>
+            <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="12" fill="#FF3340">
+                            <tspan x="93" y="51">24</tspan>
+                        </text>
+            <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="12" letter-spacing="-.2" fill="#555">
+                            <tspan x="817" y="21">타이틀 영역</tspan>
+                        </text>
+            <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="12" letter-spacing="-.2" fill="#555">
+                            <tspan x="817" y="84">컨텐츠 영역</tspan>
+                        </text>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,295 @@
+<div class="flex flex-row justify-items-center items-center mt-80 mb-20">
+    <div class="text-3xl font-bold tracking-tight leading-tight whitespace-nowrap">Data Type</div>
+    <div class="flex items-baseline ml-16 text-gray-600 text-md flex-wrap">
+        여러가지 데이터를 표현할 때 사용됩니다.
+    </div>
+</div>
+
+<div class="flex flex-col mt-6">
+    <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
+        <div class="inline-block py-2 min-w-full sm:px-6 lg:px-8">
+            <div class="overflow-hidden">
+                <table class="min-w-full">
+                    <thead class="bg-olive-100 border-b border-t border-t-olive-200 border-b-olive-200">
+                    <tr>
+                        <th scope="col" class="px-4 text-md font-bold text-left w-100">
+                            Type
+                        </th>
+                        <th scope="col" class="px-4 text-md font-bold text-center w-60">
+                            Color
+                        </th>
+                        <th scope="col" class="px-4 text-md font-bold text-center w-60">
+                            Size
+                        </th>
+                        <th scope="col" class="px-4 text-md font-bold text-center w-60">
+                            Style
+                        </th>
+                        <th scope="col" class="px-4 text-md font-bold text-center w-60">
+                            Line Height
+                        </th>
+                        <th scope="col" class="px-4 text-md font-bold text-center w-60">
+                            Letter Spacing
+                        </th>
+                        <th scope="col" class="text-md font-bold text-left min-w-90">
+                            Usage
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr class="bg-white text-md text-black h-[64px] border-b">
+                        <td class="px-4 py-1 whitespace-nowrap">
+                            <div class="text-gray-500 text-sm font-light leading-20 tracking-tight">CARD > 이슈 메세지</div>
+                        </td>
+                        <td class="py-2">
+                            <div class="flex flex-col items-center justify-center text-center">
+                                <div class="bg-gray-500 border border-gray-500 px-4 w-[60px] h-[21px] flex items-center justify-center text-white text-sm font-thin">#888888</div>
+                                <div class="bg-complete-fg border border-complete-fg px-4 mt-1 w-[60px] h-[21px] flex items-center justify-center text-white text-sm font-thin">#08B4AB</div>
+                                <div class="bg-wrong-button border border-wrong-button px-4 mt-1 w-[60px] h-[21px] flex items-center justify-center text-white text-sm font-thin">#FF3340</div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="text-center">12</div>
+                        </td>
+                        <td>
+                            <div class="text-center">Regular</div>
+                        </td>
+                        <td>
+                            <div class="text-center">20</div>
+                        </td>
+                        <td>
+                            <div class="text-center">-0.2</div>
+                        </td>
+                        <td>
+                            <div>카드 UI. 이슈 항목에 대한 기본 스타일로</div>
+                            <div>컬러로 구분.(Grey 이슈없을때, Red 이슈</div>
+                            <div>있을때, Green 해결된 상태)</div>
+                        </td>
+                    </tr>
+
+                    <tr class="bg-white text-md text-black h-[64px] border-b">
+                        <td class="px-4 py-1 whitespace-nowrap">
+                            <div class="text-gray-700 text-xl font-bold leading-24 tracking-tight">CARD > 카운트 넘버</div>
+                        </td>
+                        <td class="py-2">
+                            <div class="flex flex-col items-center justify-center text-center">
+                                <div class="bg-gray-700 border border-gray-700 px-4 m-1 w-[60px] h-[21px] flex items-center justify-center text-white text-sm font-thin">#222222</div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="text-center">18</div>
+                        </td>
+                        <td>
+                            <div class="text-center">Bold</div>
+                        </td>
+                        <td>
+                            <div class="text-center">24</div>
+                        </td>
+                        <td>
+                            <div class="text-center">-0.2</div>
+                        </td>
+                        <td>
+                            <div>카드 UI. 카운팅 넘버에 사용하며,</div>
+                            <div>SCAN에서도 동일하게 적용</div>
+                        </td>
+                    </tr>
+                    <tr class="bg-white text-md text-black h-[64px] border-b">
+                        <td class="px-4 py-1 whitespace-nowrap">
+                            <div class="text-gray-700 text-md font-normal leading-22 tracking-tight">Scan Time</div>
+                        </td>
+                        <td class="py-2">
+                            <div class="flex flex-col items-center justify-center text-center">
+                                <div class="bg-gray-700 border border-gray-700 px-4 m-1 w-[60px] h-[21px] flex items-center justify-center text-white text-sm font-thin">#222222</div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="text-center">14</div>
+                        </td>
+                        <td>
+                            <div class="text-center">Regular</div>
+                        </td>
+                        <td>
+                            <div class="text-center">22</div>
+                        </td>
+                        <td>
+                            <div class="text-center">-0.2</div>
+                        </td>
+                        <td>
+                            <div>마지막 스캔 시간</div>
+                            <div>스캔 히스토리 레이어 내 스캔 시간</div>
+                        </td>
+                    </tr>
+                    <tr class="bg-white text-md text-black h-[64px] border-b">
+                        <td class="px-4 py-1 whitespace-nowrap">
+                            <div class="text-gray-600 text-lg font-normal leading-24 tracking-tight">SCAN > Github URL</div>
+                        </td>
+                        <td class="py-2">
+                            <div class="flex flex-col items-center justify-center text-center">
+                                <div class="bg-gray-600 border border-gray-600 px-4 m-1 w-[60px] h-[21px] flex items-center justify-center text-white text-sm font-thin">#555555</div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="text-center">16</div>
+                        </td>
+                        <td>
+                            <div class="text-center">Regular</div>
+                        </td>
+                        <td>
+                            <div class="text-center">24</div>
+                        </td>
+                        <td>
+                            <div class="text-center">-0.2</div>
+                        </td>
+                        <td>
+                            <div>SCAN에서 사용. 해당 프로젝트의</div>
+                            <div>Github URL을 표시할 때 사용</div>
+                        </td>
+                    </tr>
+                    <tr class="bg-white text-md text-black h-[64px] border-b">
+                        <td class="px-4 py-1 whitespace-nowrap">
+                            <div class="text-olive-400 text-xl font-normal leading-24 tracking-tight">SCAN > 스캔 완료</div>
+                            <div class="text-xl font-normal leading-24 tracking-tight hover:text-olive-400 cursor-pointer flex flex-row">
+                                <div class="text-olive-400">이슈 해결</div>
+                                <div class="text-wrong-button font-bold ml-2">이슈 현황</div>
+                                <div class="text-gray-700 ml-2">부가 설명</div>
+                            </div>
+                        </td>
+                        <td class="py-2">
+                            <div class="flex flex-col items-center justify-center text-center">
+                                <div class="bg-olive-400 border border-olive-400 px-4 w-[60px] h-[21px] flex items-center justify-center text-white text-sm font-thin">#038C65</div>
+                                <div class="bg-wrong-button border border-wrong-button px-4 mt-1 w-[60px] h-[21px] flex items-center justify-center text-white text-sm font-thin">#FF3340</div>
+                                <div class="bg-gray-700 border border-gray-700 px-4 mt-1 w-[60px] h-[21px] flex items-center justify-center text-white text-sm font-thin">#222222</div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="text-center">18</div>
+                        </td>
+                        <td>
+                            <div class="text-center">Regular</div>
+                            <div class="text-center">Bold</div>
+                        </td>
+                        <td>
+                            <div class="text-center">24</div>
+                        </td>
+                        <td>
+                            <div class="text-center">-0.2</div>
+                        </td>
+                        <td>
+                            <div>SCAN 완료시 발생하는 이슈에 대한</div>
+                            <div>상태별 텍스트</div>
+                        </td>
+                    </tr>
+                    <tr class="bg-white text-md text-black h-[64px] border-b">
+                        <td class="px-4 py-1 whitespace-nowrap">
+                            <div class="text-gray-500 text-md font-normal leading-22 tracking-tight">SCAN > History > Time</div>
+                            <div class="text-gray-700 text-md font-normal leading-22 tracking-tight">SCAN > History > Value</div>
+                        </td>
+                        <td class="py-2">
+                            <div class="flex flex-col items-center justify-center text-center">
+                                <div class="bg-gray-500 border border-gray-500 px-4 w-[60px] h-[21px] flex items-center justify-center text-white text-sm font-thin">#888888</div>
+                                <div class="bg-gray-700 border border-gray-700 px-4 mt-1 w-[60px] h-[21px] flex items-center justify-center text-white text-sm font-thin">#222222</div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="text-center">14</div>
+                        </td>
+                        <td>
+                            <div class="text-center">Regular</div>
+                        </td>
+                        <td>
+                            <div class="text-center">22</div>
+                        </td>
+                        <td>
+                            <div class="text-center">-0.2</div>
+                        </td>
+                        <td>
+                            <div>Scan History 정보를 표시</div>
+                            <div>시간은 #888, 내용과 유저는 #222 사용</div>
+                        </td>
+                    </tr>
+                    <tr class="bg-white text-md text-black h-[64px] border-b">
+                        <td class="px-4 py-1 whitespace-nowrap">
+                            <div class="text-gray-700 text-lg font-bold leading-24 tracking-tight">Setting > Name</div>
+                        </td>
+                        <td class="py-2">
+                            <div class="flex flex-col items-center justify-center text-center">
+                                <div class="bg-gray-700 border border-gray-700 px-4 m-1 w-[60px] h-[21px] flex items-center justify-center text-white text-sm font-thin">#222222</div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="text-center">16</div>
+                        </td>
+                        <td>
+                            <div class="text-center">Regular</div>
+                            <div class="text-center">Bold</div>
+                        </td>
+                        <td>
+                            <div class="text-center">24</div>
+                        </td>
+                        <td>
+                            <div class="text-center">-0.2</div>
+                        </td>
+                        <td>
+                            <div>프로젝트 멤버 확인시, 이름을 표시</div>
+                            <div>본인의 이름에는 볼드를 적용</div>
+                        </td>
+                    </tr>
+                    <tr class="bg-white text-md text-black h-[64px] border-b">
+                        <td class="px-4 py-1 whitespace-nowrap">
+                            <div class="text-gray-600 text-md font-normal leading-22 tracking-tight">New Project > 일반 프로젝트</div>
+                            <div class="text-olive-400 text-md font-normal leading-22 tracking-tight">New Project > Import 프로젝트</div>
+                        </td>
+                        <td class="py-2">
+                            <div class="flex flex-col items-center justify-center text-center">
+                                <div class="bg-gray-600 border border-gray-600 px-4 m-1 w-[60px] h-[21px] flex items-center justify-center text-white text-sm font-thin">#555555</div>
+                                <div class="bg-olive-400 border border-olive-400 px-4 w-[60px] h-[21px] flex items-center justify-center text-white text-sm font-thin">#038C65</div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="text-center">14</div>
+                        </td>
+                        <td>
+                            <div class="text-center">Regular</div>
+                        </td>
+                        <td>
+                            <div class="text-center">22</div>
+                        </td>
+                        <td>
+                            <div class="text-center">-0.2</div>
+                        </td>
+                        <td>
+                            <div>새 프로젝트를 연결할 때, 일반 프로젝트 및</div>
+                            <div>이미 import 된 프로젝트를 표시</div>
+                        </td>
+                    </tr>
+                    <tr class="bg-white text-md text-black h-[64px] border-b">
+                        <td class="px-4 py-1 whitespace-nowrap">
+                            <div class="text-gray-500 text-sm font-normal leading-20">New Project > 프로젝트 마스터</div>
+                        </td>
+                        <td class="py-2">
+                            <div class="flex flex-col items-center justify-center text-center">
+                                <div class="bg-gray-500 border border-gray-500 px-4 m-1 w-[60px] h-[21px] flex items-center justify-center text-white text-sm font-thin">#888888</div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="text-center">12</div>
+                        </td>
+                        <td>
+                            <div class="text-center">Regular</div>
+                        </td>
+                        <td>
+                            <div class="text-center">20</div>
+                        </td>
+                        <td>
+                            <div class="text-center">0</div>
+                        </td>
+                        <td>
+                            <div>새 프로젝트를 연결할 때, 다른 project의</div>
+                            <div>마스터와 날짜를 표시할 때 사용</div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

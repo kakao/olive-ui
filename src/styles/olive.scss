@@ -1,0 +1,45 @@
+
+.codeBtn {
+    @apply border-y border-dashed w-full text-center h-40 pt-2 cursor-pointer text-gray-600 ;
+
+}
+pre {
+    @apply overflow-auto;
+    font-family: monospace !important;
+    font-size:13px !important;
+}
+
+pre.olvCode {
+    @apply border-0
+}
+.mb-01{
+    margin-bottom: -1px !important;
+}
+.olv-box {
+    @apply relative
+}
+.olv-box-basic .olv-box-content {
+    @apply py-6 pl-8 pr-14 rounded-md border border-gray-100 bg-lightgray-100
+}
+.olv-box-desc .olv-box-content {
+    @apply py-6 pl-8 pr-14 rounded-md border border-gray-100 bg-lightgray-600
+}
+.olv-box-info .olv-box-content {
+    @apply py-6 pl-8 pr-14 rounded-md border border-olive-200 bg-olive-100
+}
+.olv-box-error .olv-box-content {
+    @apply py-6 pl-8 pr-14 rounded-md border bg-wrong-bg border-wrong-line
+}
+.olv-box-strong-basic .olv-box-content {
+    @apply py-6 px-8 rounded-md border-2 bg-lightgray-100 border-olive-400 hover:bg-olive-100 border-olive-400
+}
+.olv-box-strong-error .olv-box-content {
+    @apply py-6 px-8 rounded-md border-2 bg-lightgray-100 border-wrong-button hover:bg-wrong-bg border-wrong-button
+}
+.olv-box-strong-info .olv-box-content {
+    @apply py-6 px-8 rounded-md border-2 bg-gnb-active border-gnb-link
+}
+
+.olive-logo-size {
+    width:1
+}

@@ -1,0 +1,74 @@
+<svg width="790" height="222" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#EEE" d="M0 0h136v42H0z"/>
+        <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="13" letter-spacing="-.2" fill="#222">
+                                <tspan x="46.086" y="24">리스트1</tspan>
+                            </text>
+        <path d="M789.5 58.5v163H.5v-163h789z" stroke="#EEE" fill="#FFF"/>
+        <path fill="#EEE" d="M32 90h184v42H32z"/>
+        <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="13" letter-spacing="-.2" fill="#222" transform="translate(32 90)">
+                                <tspan x="71.086" y="24">리스트1</tspan>
+                            </text>
+        <path fill="#EEE" d="M32 148h184v42H32z"/>
+        <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="13" letter-spacing="-.2" fill="#222" transform="translate(32 148)">
+                                <tspan x="71.086" y="24">리스트4</tspan>
+                            </text>
+        <path fill="#EEE" d="M274 90h184v42H274z"/>
+        <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="13" letter-spacing="-.2" fill="#222" transform="translate(274 90)">
+                                <tspan x="71.086" y="24">리스트2</tspan>
+                            </text>
+        <path fill="#EEE" d="M274 148h184v42H274z"/>
+        <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="13" letter-spacing="-.2" fill="#222" transform="translate(274 148)">
+                                <tspan x="71.086" y="24">리스트5</tspan>
+                            </text>
+        <path fill="#EEE" d="M516 90h184v42H516z"/>
+        <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="13" letter-spacing="-.2" fill="#222" transform="translate(516 90)">
+                                <tspan x="71.086" y="24">리스트3</tspan>
+                            </text>
+        <g>
+            <path fill="#EEE" d="M516 148h184v42H516z"/>
+            <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="13" letter-spacing="-.2" fill="#222" transform="translate(516 148)">
+                                <tspan x="71.086" y="24">리스트6</tspan>
+                            </text>
+        </g>
+        <g>
+            <path fill="#EEE" d="M168 0h100v42H168z"/>
+            <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="13" letter-spacing="-.2" fill="#222" transform="translate(168)">
+                                <tspan x="28" y="24">리스트2</tspan>
+                            </text>
+        </g>
+        <g>
+            <path fill="#EEE" d="M300 0h136v42H300z"/>
+            <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="13" letter-spacing="-.2" fill="#222" transform="translate(300)">
+                                <tspan x="46" y="24">리스트3</tspan>
+                            </text>
+        </g>
+        <g>
+            <path fill="#EEE" d="M468 0h185v42H468z"/>
+            <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="13" letter-spacing="-.2" fill="#222" transform="translate(136)">
+                                <tspan x="403" y="24">리스트4</tspan>
+                            </text>
+            <g fill="#038C65" fill-opacity=".203" stroke="#038C65">
+                <path d="M136.5.5h7v41h-7zM152.5.5h7v41h-7zM144.5.5h7v41h-7zM160.5.5h7v41h-7z"/>
+            </g>
+            <g fill="#038C65" fill-opacity=".203" stroke="#038C65">
+                <path d="M268.5.5h7v41h-7zM284.5.5h7v41h-7zM276.5.5h7v41h-7zM292.5.5h7v41h-7z"/>
+            </g>
+            <g fill="#038C65" fill-opacity=".203" stroke="#038C65">
+                <path d="M436.5.5h7v41h-7zM452.5.5h7v41h-7zM444.5.5h7v41h-7zM460.5.5h7v41h-7z"/>
+            </g>
+        </g>
+        <g>
+            <g opacity=".5" fill="#038C65" fill-opacity=".203" stroke="#038C65">
+                <path d="M.5 58.5h7v163h-7zM16.5 58.5h7v163h-7zM8.5 58.5h7v163h-7zM24.5 58.5h7v163h-7z"/>
+            </g>
+            <g opacity=".5" fill="#038C65" fill-opacity=".203" stroke="#038C65">
+                <path d="M758.5 58.5h7v163h-7zM774.5 58.5h7v163h-7zM766.5 58.5h7v163h-7zM782.5 58.5h7v163h-7z"/>
+            </g>
+            <path stroke="#FF3340" stroke-linecap="square" stroke-dasharray="3,3" d="M274.5 79.28v122.44"/>
+            <path d="M274 215h-1v-4H33v4h-1v-9h1v4h240v-4h1v9zM516 215h-1v-4H276v4h-1v-9h1v4h239v-4h1v9zM758 215h-1v-4H518v4h-1v-9h1v4h239v-4h1v9z" fill="#FF3340" fill-rule="nonzero"/>
+            <path fill="#FF3340" d="M151 207h1v7h-1zM394 207h1v7h-1zM636 207h1v7h-1zM154 207h1v7h-1zM397 207h1v7h-1zM639 207h1v7h-1z"/>
+            <path stroke="#FF3340" stroke-linecap="square" stroke-dasharray="3,3" d="M516.5 79.28v122.44"/>
+        </g>
+    </g>
+</svg>
