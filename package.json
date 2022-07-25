@@ -11,7 +11,7 @@
         "build": "ng build",
         "watch": "ng build --watch --configuration development",
         "test": "ng test",
-        "deploy": "ng deploy --base-href=/olive-ui/"
+        "deploy": "ng deploy -d --base-href=/olive-ui/"
     },
     "private": true,
     "dependencies": {
