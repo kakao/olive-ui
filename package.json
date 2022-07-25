@@ -10,7 +10,8 @@
         "start-dev": "ng serve -o -c=development",
         "build": "ng build",
         "watch": "ng build --watch --configuration development",
-        "test": "ng test"
+        "test": "ng test",
+        "deploy": "ng deploy --base-href=/olive-ui/"
     },
     "private": true,
     "dependencies": {
