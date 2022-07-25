@@ -60,6 +60,7 @@
         "@types/node": "12.20.38",
         "@typescript-eslint/eslint-plugin": "5.8.1",
         "@typescript-eslint/parser": "5.8.1",
+        "angular-cli-ghpages": "^1.0.0",
         "autoprefixer": "^10.4.2",
         "chroma-js": "2.1.2",
         "eslint": "8.6.0",
