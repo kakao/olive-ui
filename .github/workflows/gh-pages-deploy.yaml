@@ -1,5 +1,6 @@
 name: Angular GitHub CI 3
 on:
+    workflow_dispatch:
     push:
         branches:
             - main
