@@ -9,6 +9,7 @@ import { SharedModule } from 'app/shared/shared.module';
 import { BasicLayoutComponent } from "./basic.component";
 import { MatSidenavModule } from "@angular/material/sidenav";
 import { MenuComponent } from "../menu/menu.component";
+import { OlvFooterModule } from "../../../@olive/components/footer/footer.module";
 
 @NgModule({
     declarations: [
@@ -23,7 +24,8 @@ import { MenuComponent } from "../menu/menu.component";
         MatIconModule,
         MatMenuModule,
         SharedModule,
-        MatSidenavModule
+        MatSidenavModule,
+        OlvFooterModule
     ],
     exports     : [
         BasicLayoutComponent,
