@@ -39,7 +39,25 @@ pre.olvCode {
 .olv-box-strong-info .olv-box-content {
     @apply py-6 px-8 rounded-md border-2 bg-gnb-active border-gnb-link
 }
+.olv-footer a {
+    @apply hover:underline
+}
+.olv-footer {
+    @apply flex grid md:grid-cols-3 sm:grid-cols-none bg-gray-700 text-gray-500 font-light p-6
+}
+.olv-footer-content{
+    @apply md:col-span-2 md:text-left sm:text-center text-gray-500 text-sm mx-3
+}
+.olv-footer-extra{
+    @apply md:text-right sm:text-center text-gray-500 text-sm mx-2 mt-3
+}
 
-.olive-logo-size {
-    width:1
+.custom .olv-footer {
+    @apply grid-cols-none
+}
+.custom .olv-footer-content {
+    @apply text-center
+}
+.custom .olv-footer-extra {
+    @apply text-center  md:col-span-2
 }

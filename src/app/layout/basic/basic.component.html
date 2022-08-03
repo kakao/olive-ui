@@ -61,16 +61,19 @@
                 </div>
 
             </mat-drawer-content>
-
         </mat-drawer-container>
     </div>
-
-    <!-- Footer -->
-    <div class="relative z-10 flex items-center px-6 bg-gray-700">
-        <div class="flex flex-col text-gray-500 text-md mx-2 my-8">
-            <div>Copyright ⓒ Kakao Corp. All right reserved.</div>
-            <div>카카오 기술 플랫폼에서 제공하는 오픈소스 검증 서비스</div>
-        </div>
-    </div>
+    <olv-footer
+        [olvContentMessage]='MessageTemplate'
+        [olvExtraMessage]='olvExtraMessage'>
+    </olv-footer>
+        <ng-template #MessageTemplate>
+            Copyright ⓒ <a href="https://www.kakaocorp.com/" target="_blank"> Kakao Corp.</a> All rights reserved.<br/>
+            카카오 기술 플랫폼에서 제공하는 오픈소스 검증 서비스<br/>
+        </ng-template>
+        <ng-template #olvExtraMessage>
+            <a href="https://www.kakao.com/policy/terms?lang=ko" class="text-gray-200 mx-3">이용약관</a>
+            <a href="https://www.kakao.com/policy/privacy?lang=ko" class="text-gray-200 mx-3">개인정보처리방침</a>
+        </ng-template>
 </div>
 

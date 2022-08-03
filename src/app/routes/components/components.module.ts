@@ -28,6 +28,7 @@ import { ClipboardModule } from 'ngx-clipboard';
 import { OlvBoxModule } from '../../../@olive/components/box/box.module';
 import { HighlightModule, HIGHLIGHT_OPTIONS } from 'ngx-highlightjs';
 import { MatIconModule } from '@angular/material/icon';
+import { OlvFooterModule } from "../../../@olive/components/footer/footer.module";
 
 const COMPONENTS = [
     BoxComponent,
@@ -55,7 +56,7 @@ const COMPONENTS = [
 ];
 
 @NgModule({
-    imports: [SharedModule, ComponentsRoutingModule, ClipboardModule, OlvBoxModule, HighlightModule, MatIconModule],
+    imports: [SharedModule, ComponentsRoutingModule, ClipboardModule, OlvBoxModule, HighlightModule, MatIconModule, OlvFooterModule],
     providers: [
         {
             provide: HIGHLIGHT_OPTIONS,

@@ -1,0 +1,9 @@
+<div class="olv-footer">
+    <div class="olv-footer-content">
+        <ng-container *ngTemplateOutlet='olvContentMessage'></ng-container>
+    </div>
+    <div class="olv-footer-extra" *ngIf="olvExtraMessage">
+        <ng-container *ngTemplateOutlet='olvExtraMessage'></ng-container>
+    </div>
+</div>
+

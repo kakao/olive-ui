@@ -1,0 +1,227 @@
+<div class="text-4xl font-extrabold tracking-tight pb-16 mb-32 border-b">
+    Footer
+</div>
+
+<div class="flex border-gray-700">Footer는 GNB와 함께 모든 페이지에서 공통적으로 사용됩니다. PC와 모바일에서 레이아웃이 다르게 적용됩니다.</div>
+<div class="flex flex-row justify-items-center items-center mt-40 mb-20">
+    <div class="text-3xl font-bold tracking-tight leading-tight whitespace-nowrap">Type</div>
+    <div class="flex items-baseline ml-16 text-gray-600 text-md flex-wrap">
+        디바이스별로 다르게 적용되며, 각 화면의 width 100%로 적용합니다.
+    </div>
+</div>
+
+<div class="my-16 font-semibold text-md text-gray-600">Basic</div>
+<olv-footer
+    [olvContentMessage]='MessageTemplate'
+    [olvExtraMessage]='olvExtraMessage'>
+</olv-footer>
+<ng-template #MessageTemplate>
+    Copyright ⓒ <a href="https://www.kakaocorp.com/" target="_blank"> Kakao Corp.</a> All rights reserved.<br/>
+    카카오 기술 플랫폼에서 제공하는 오픈소스 검증 서비스<br/>
+</ng-template>
+<ng-template #olvExtraMessage>
+    <a href="https://www.kakao.com/policy/terms?lang=ko" class="text-gray-200 mx-3">이용약관</a>
+    <a href="https://www.kakao.com/policy/privacy?lang=ko" class="text-gray-200 mx-3">개인정보처리방침</a>
+</ng-template>
+<div class="my-16 font-semibold text-md text-gray-600">Custom</div>
+<div class="w-96 mb-16">
+<olv-footer
+    [olvContentMessage]='MessageTemplate'
+    [olvExtraMessage]='olvExtraMessage'
+    olvFooterType='custom'>
+</olv-footer>
+</div>
+<div class='codeBtn'>
+    <div class='inline-block mx-4 text-md hover:text-olive-400' (click)="showArea()" title='Copy Code'>
+        <mat-icon [svgIcon]="'CodeCopyIcon'" class='align-middle mb-1'></mat-icon>
+        <span class='ml-1'>Show Code</span>
+    </div>
+    <div class='inline-block mx-4 text-md hover:text-olive-400' (click)='copyText(footer)' title='Show Code'>
+        <mat-icon [svgIcon]="'CodeShowIcon'" class='align-middle mb-1'></mat-icon>
+        <span class='ml-1'>Copy Code</span>
+    </div>
+</div>
+<ng-container *ngIf="isShown">
+    <ul>
+        <li class='relative border-b'>
+            <div>
+                <pre><code [highlight]="footer" [languages]="['html']"></code></pre>
+            </div>
+        </li>
+    </ul>
+</ng-container>
+
+
+<div class='flex flex-row justify-items-center items-center mt-60'>
+    <div class="text-3xl font-bold tracking-tight leading-tight whitespace-nowrap">Style</div>
+    <div class="flex items-baseline ml-16 text-gray-600 text-md flex-wrap">
+        Footer에 사용된 스타일과 사이 간격에 대한 정보를 제공합니다.
+    </div>
+</div>
+
+<div class="mt-24 font-semibold text-gray-600">Color</div>
+<div class="flex text-sm">
+    <div class="bg-gray-700 border border-gray-700 text-white px-4 m-1 w-[60px] h-[21px] flex items-center justify-center">#222222</div>
+    <div class="bg-gray-500 border border-gray-500 text-white px-4 m-1 w-[60px] h-[21px] flex items-center justify-center">#888888</div>
+    <div class="bg-gray-200 border border-gray-200 px-4 m-1 w-[60px] h-[21px] flex items-center justify-center">#D6D6D6</div>
+</div>
+<div class="mt-24 font-semibold text-gray-600">Text</div>
+
+<div class="flex flex-col mt-6">
+    <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
+        <div class="inline-block py-2 min-w-full sm:px-6 lg:px-8">
+            <div class="overflow-hidden">
+                <table class="min-w-full">
+                    <thead class="bg-olive-100 border-b border-t border-t-olive-200 border-b-olive-200">
+                    <tr>
+                        <th scope="col" class="py-3 px-4 text-md font-bold text-left w-100">
+                            Type
+                        </th>
+                        <th scope="col" class="py-3 px-4 text-md font-bold text-center w-60">
+                            Color
+                        </th>
+                        <th scope="col" class="py-3 px-4 text-md font-bold text-center w-60">
+                            Size
+                        </th>
+                        <th scope="col" class="py-3 px-4 text-md font-bold text-center w-60">
+                            Style
+                        </th>
+                        <th scope="col" class="py-3 px-4 text-md font-bold text-center w-60">
+                            Line Height
+                        </th>
+                        <th scope="col" class="py-3 px-4 text-md font-bold text-center w-60">
+                            Letter Spacing
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr class="bg-white text-md text-black h-[64px] border-b">
+                        <td class="p-4 whitespace-nowrap">
+                            <div class="text-gray-500 text-sm font-normal leading-20 tracking-tight hover:underline cursor-pointer">Copyright</div>
+                            <div class="text-gray-500 text-sm font-normal leading-20 tracking-tight underline">Copyright Hover / Press</div>
+                        </td>
+                        <td>
+                            <div class="flex items-center justify-center text-center">
+                                <div class="bg-gray-500 border border-gray-500 px-4 m-1 w-[60px] h-[21px] flex items-center justify-center text-white text-sm font-thin">#888888</div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="text-center">12</div>
+                        </td>
+                        <td>
+                            <div class="text-center">Regular</div>
+                        </td>
+                        <td>
+                            <div class="text-center">20</div>
+                        </td>
+                        <td>
+                            <div class="text-center">0</div>
+                        </td>
+                    </tr>
+
+                    <tr class="bg-white text-md text-black h-[64px] border-b">
+                        <td class="p-4 whitespace-nowrap">
+                            <div class="text-gray-200 text-sm font-normal leading-20 tracking-tight hover:underline cursor-pointer">Link Select</div>
+                            <div class="text-gray-200 text-sm font-normal leading-20 tracking-tight underline">Link Select Hover / Press</div>
+                        </td>
+                        <td>
+                            <div class="flex items-center justify-center text-center">
+                                <div class="bg-gray-200 border border-gray-200 px-4 m-1 w-[60px] h-[21px] flex items-center justify-center text-gray-700 text-sm font-light">#D6D6D6</div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="text-center">12</div>
+                        </td>
+                        <td>
+                            <div class="text-center">Regular</div>
+                        </td>
+                        <td>
+                            <div class="text-center">20</div>
+                        </td>
+                        <td>
+                            <div class="text-center">0</div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="flex flex-row justify-items-center items-center mt-80">
+    <div class="text-3xl font-bold tracking-tight leading-tight whitespace-nowrap">Footer</div>
+    <div class="flex items-baseline ml-16 text-gray-600 text-md flex-wrap">
+        component
+    </div>
+</div>
+<div class="flex flex-col mt-6">
+    <div class="overflow-x-auto">
+        <div class="inline-block py-2 min-w-full">
+            <div class="overflow-hidden">
+                <table class="min-w-full">
+                    <thead class="bg-olive-100 border-b border-t border-t-olive-200 border-b-olive-200">
+                    <tr>
+                        <th scope="col" class="py-3 px-4 text-md font-bold text-left">
+                            Property
+                        </th>
+                        <th scope="col" class="py-3 px-4 text-md font-bold text-center">
+                            Description
+                        </th>
+                        <th scope="col" class="py-3 px-4 text-md font-bold text-center">
+                            Type
+                        </th>
+                        <th scope="col" class="py-3 px-4 text-md font-bold text-center">
+                            Default
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr class="bg-white text-md text-black font-light h-[64px] border-b">
+                        <td class="p-4 whitespace-nowrap text-left align-top">
+                            olvFooterType
+                        </td>
+                        <td class="p-4 whitespace-nowrap text-center align-top">
+                            -
+                        </td>
+                        <td class="p-4 whitespace-nowrap text-center align-top">
+                            'basic' | 'custom'
+                        </td>
+                        <td class="p-4 whitespace-nowrap text-center align-top">
+                            basic
+                        </td>
+                    </tr>
+                    <tr class="bg-white text-md text-black font-light h-[64px] border-b">
+                        <td class="p-4 whitespace-nowrap text-left align-top">
+                            olvContentMessage
+                        </td>
+                        <td class="p-4 whitespace-nowrap text-center align-top">
+                            Copyright
+                        </td>
+                        <td class="p-4 whitespace-nowrap text-center align-top">
+                            -
+                        </td>
+                        <td class="p-4 whitespace-nowrap text-center align-top">
+                            Template
+                        </td>
+                    </tr>
+                    <tr class="bg-white text-md text-black font-light h-[64px] border-b">
+                        <td class="p-4 whitespace-nowrap text-left align-top">
+                            olvExtraMessage
+                        </td>
+                        <td class="p-4 whitespace-nowrap text-center align-top">
+                            Extra links
+                        </td>
+                        <td class="p-4 whitespace-nowrap text-center align-top">
+                            -
+                        </td>
+                        <td class="p-4 whitespace-nowrap text-center align-top">
+                            Template
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
