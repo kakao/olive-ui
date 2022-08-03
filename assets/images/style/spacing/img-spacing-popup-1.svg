@@ -1,0 +1,41 @@
+<svg width="340" height="224" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter x="-5%" y="-6.4%" width="110%" height="115.7%" filterUnits="objectBoundingBox" id="a">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/>
+            <feOffset dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" in="shadowBlurOuter1"/>
+        </filter>
+        <path id="b" d="M0 0h320v204H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(10 7)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <path stroke-opacity=".2" stroke="#000" d="M320.5-.5v205H-.5V-.5h321z" fill="#FFF"/>
+        </g>
+        <path d="m305.333 25 .667.667-5.334 5.332L306 36.333l-.667.667L300 31.666 294.667 37l-.667-.667L299.333 31 294 25.667l.667-.667L300 30.333 305.333 25z" fill="#222"/>
+        <g transform="translate(138 147)">
+            <rect fill="#038C65" width="64" height="32" rx="4"/>
+            <text font-family="SpoqaHanSansNeo-Bold, Spoqa Han Sans Neo" font-size="14" font-weight="bold" fill="#FFF">
+                                    <tspan x="19.12" y="19">확인</tspan>
+                                </text>
+        </g>
+        <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="14" letter-spacing="-.2" fill="#222" transform="translate(10 7)">
+                                <tspan x="58.018" y="78">프로젝트 멤버 초대 요청이 있습니다.</tspan>
+                                <tspan x="50.21" y="100">멤버 초대 요청 목록에서 확인해 주세요.</tspan>
+                            </text>
+        <g fill="#FF3340">
+            <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="12" transform="translate(171 7.5)">
+                                <tspan x="7" y="36.5">64</tspan>
+                            </text>
+            <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="12" transform="translate(171 7.5)">
+                                <tspan x="7" y="125.5">32</tspan>
+                            </text>
+            <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="12" transform="translate(171 7.5)">
+                                <tspan x="7" y="191.5">32</tspan>
+                            </text>
+            <path d="M172 7.999V70h4v1h-9v-1h4V8h-4V7l4 .001V7h5v1l-4-.001zM167 147v-1h4v-30h-4v-1h9v1h-4v30h4v1h-9zM167 211v-1h4v-30h-4v-1h9v1h-4v30h4v1h-9z" fill-rule="nonzero"/>
+        </g>
+    </g>
+</svg>

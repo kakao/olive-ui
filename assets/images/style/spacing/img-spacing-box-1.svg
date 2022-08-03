@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="178" viewBox="0 0 680 178">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g transform="translate(-312.000000, -1248.000000) translate(280.000000, 1120.000000) translate(32.000000, 88.000000) translate(0.000000, 40.000000) translate(0.000000, 0.000000)">
+                            <rect width="679" height="177" x=".5" y=".5" fill="#FFF" stroke="#FF3340" rx="8"/>
+                            <text fill="#222" font-family="SpoqaHanSansNeo-Bold, Spoqa Han Sans Neo" font-size="20" font-weight="bold" letter-spacing="-.2">
+                                <tspan x="63" y="51">Component</tspan>
+                            </text>
+                            <g transform="translate(31.000000, 32.000000)">
+                                <rect width="22" height="22" x="1" y="1" stroke="#222" stroke-width="2" rx="2"/>
+                                <path fill="#222" d="M6 6H8V8H6zM6 11H8V13H6zM6 16H8V18H6z"/>
+                                <rect width="8" height="2" x="10" y="6" fill="#222" rx="1"/>
+                                <rect width="8" height="2" x="10" y="11" fill="#222" rx="1"/>
+                                <rect width="8" height="2" x="10" y="16" fill="#222" rx="1"/>
+                            </g>
+                            <text fill="#FF3340" font-family="SpoqaHanSansNeo-Bold, Spoqa Han Sans Neo" font-size="18" font-weight="bold" letter-spacing="-.225">
+                                <tspan x="32" y="111">확인이 필요한 Component : 99개</tspan>
+                            </text>
+                            <text fill="#222" font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="18" letter-spacing="-.225">
+                                <tspan x="32" y="141">자동 수집된 Component : 99개</tspan>
+                            </text>
+                            <g transform="translate(299.000000, 96.000000)">
+                                <path d="M0 0H18V18H0z"/>
+                                <circle cx="8.5" cy="8.5" r="8" stroke="#FF3340"/>
+                                <path fill="#FF3340" d="M7 11.417L9.857 8.5 7 5.583 7.571 5 11 8.5 7.571 12z"/>
+                            </g>
+                        </g>
+                        <path fill="#FF3340" fill-rule="nonzero" d="M89 .999V31h4v1h-9v-1h4V1h-4V0h9v1l-4-.001zM84 178v-1h4v-30h-4v-1h9v1h-4v30h4v1h-9z" transform="translate(-312.000000, -1248.000000) translate(280.000000, 1120.000000) translate(32.000000, 88.000000) translate(0.000000, 40.000000)"/>
+                        <text fill="#FF3340" font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="12" transform="translate(-312.000000, -1248.000000) translate(280.000000, 1120.000000) translate(32.000000, 88.000000) translate(0.000000, 40.000000)">
+                            <tspan x="96" y="19">32</tspan>
+                        </text>
+                        <text fill="#FF3340" font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="12" transform="translate(-312.000000, -1248.000000) translate(280.000000, 1120.000000) translate(32.000000, 88.000000) translate(0.000000, 40.000000)">
+                            <tspan x="96" y="164">32</tspan>
+                        </text>
+                        <text fill="#FF3340" font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="12" transform="translate(-312.000000, -1248.000000) translate(280.000000, 1120.000000) translate(32.000000, 88.000000) translate(0.000000, 40.000000)">
+                            <tspan x="8" y="58">32</tspan>
+                        </text>
+                        <text fill="#FF3340" font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="12" transform="translate(-312.000000, -1248.000000) translate(280.000000, 1120.000000) translate(32.000000, 88.000000) translate(0.000000, 40.000000)">
+                            <tspan x="657" y="58">32</tspan>
+                        </text>
+                        <path fill="#FF3340" fill-rule="nonzero" d="M31 48h-1v-4H1v4H0v-9h1v4h29v-4h1v9zM680 48h-1v-4h-29v4h-1v-9h1v4h29v-4h1v9z" transform="translate(-312.000000, -1248.000000) translate(280.000000, 1120.000000) translate(32.000000, 88.000000) translate(0.000000, 40.000000)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

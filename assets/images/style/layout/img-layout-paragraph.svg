@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="896" height="506" viewBox="0 0 896 506">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <path fill="#EEE" d="M0 0H896V72H0z" transform="translate(-312.000000, -1717.000000) translate(280.000000, 1633.000000) translate(0.000000, 52.000000) translate(32.000000, 32.000000)"/>
+                            <path fill="#BBB" d="M0 434H896V506H0z" transform="translate(-312.000000, -1717.000000) translate(280.000000, 1633.000000) translate(0.000000, 52.000000) translate(32.000000, 32.000000)"/>
+                            <path fill="#E2F6F0" d="M209 100H876V156H209zM0 72H189V434H0zM209 174H876V254H209zM209 294H876V374H209z" transform="translate(-312.000000, -1717.000000) translate(280.000000, 1633.000000) translate(0.000000, 52.000000) translate(32.000000, 32.000000)"/>
+                            <text fill="#222" font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="14" letter-spacing="-.2" transform="translate(-312.000000, -1717.000000) translate(280.000000, 1633.000000) translate(0.000000, 52.000000) translate(32.000000, 32.000000)">
+                                <tspan x="434" y="39">GNB</tspan>
+                            </text>
+                            <text fill="#222" font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="14" letter-spacing="-.2" transform="translate(-312.000000, -1717.000000) translate(280.000000, 1633.000000) translate(0.000000, 52.000000) translate(32.000000, 32.000000)">
+                                <tspan x="422" y="473">FOOTER</tspan>
+                            </text>
+                            <text fill="#222" font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="14" letter-spacing="-.2" transform="translate(-312.000000, -1717.000000) translate(280.000000, 1633.000000) translate(0.000000, 52.000000) translate(32.000000, 32.000000)">
+                                <tspan x="61" y="256">Side Menu</tspan>
+                            </text>
+                            <text fill="#222" font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="14" letter-spacing="-.2" transform="translate(-312.000000, -1717.000000) translate(280.000000, 1633.000000) translate(0.000000, 52.000000) translate(32.000000, 32.000000)">
+                                <tspan x="403" y="131">Title Area(Breadcrumbs + Page Title/Project Info)</tspan>
+                            </text>
+                            <text fill="#222" font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="14" letter-spacing="-.2" transform="translate(-312.000000, -1717.000000) translate(280.000000, 1633.000000) translate(0.000000, 52.000000) translate(32.000000, 32.000000)">
+                                <tspan x="533" y="217">Section</tspan>
+                            </text>
+                            <text fill="#222" font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="14" letter-spacing="-.2" transform="translate(-312.000000, -1717.000000) translate(280.000000, 1633.000000) translate(0.000000, 52.000000) translate(32.000000, 32.000000)">
+                                <tspan x="533" y="337">Section</tspan>
+                            </text>
+                        </g>
+                        <g>
+                            <path fill="#FF3340" fill-rule="nonzero" d="M341 .999V27h4v1h-9v-1h4V1h-4V0h9v1l-4-.001zM336 102v-1h4V85h-4v-1h9v1h-4v16h4v1h-9zM336 222v-1h4v-38h-4v-1h9v1h-4v38h4v1h-9zM336 362v-1h4v-58h-4v-1h9v1h-4v58h4v1h-9z" transform="translate(-312.000000, -1717.000000) translate(280.000000, 1633.000000) translate(0.000000, 52.000000) translate(32.000000, 32.000000) translate(188.000000, 72.000000)"/>
+                            <text fill="#FF3340" font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="12" transform="translate(-312.000000, -1717.000000) translate(280.000000, 1633.000000) translate(0.000000, 52.000000) translate(32.000000, 32.000000) translate(188.000000, 72.000000)">
+                                <tspan x="347" y="17">48</tspan>
+                            </text>
+                            <text fill="#FF3340" font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="12" transform="translate(-312.000000, -1717.000000) translate(280.000000, 1633.000000) translate(0.000000, 52.000000) translate(32.000000, 32.000000) translate(188.000000, 72.000000)">
+                                <tspan x="347" y="96">32</tspan>
+                            </text>
+                            <text fill="#FF3340" font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="12" transform="translate(-312.000000, -1717.000000) translate(280.000000, 1633.000000) translate(0.000000, 52.000000) translate(32.000000, 32.000000) translate(188.000000, 72.000000)">
+                                <tspan x="0" y="152">*40</tspan>
+                            </text>
+                            <text fill="#FF3340" font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="12" transform="translate(-312.000000, -1717.000000) translate(280.000000, 1633.000000) translate(0.000000, 52.000000) translate(32.000000, 32.000000) translate(188.000000, 72.000000)">
+                                <tspan x="687" y="152">*40</tspan>
+                            </text>
+                            <text fill="#FF3340" font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="12" transform="translate(-312.000000, -1717.000000) translate(280.000000, 1633.000000) translate(0.000000, 52.000000) translate(32.000000, 32.000000) translate(188.000000, 72.000000)">
+                                <tspan x="347" y="204">80</tspan>
+                            </text>
+                            <text fill="#FF3340" font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" font-size="12" transform="translate(-312.000000, -1717.000000) translate(280.000000, 1633.000000) translate(0.000000, 52.000000) translate(32.000000, 32.000000) translate(188.000000, 72.000000)">
+                                <tspan x="347" y="334">120</tspan>
+                            </text>
+                            <path stroke="#979797" stroke-dasharray="3 2" stroke-linecap="square" d="M707.5 0.5L707.5 361.5" transform="translate(-312.000000, -1717.000000) translate(280.000000, 1633.000000) translate(0.000000, 52.000000) translate(32.000000, 32.000000) translate(188.000000, 72.000000)"/>
+                            <path fill="#FF3340" fill-rule="nonzero" d="M21 141h-1v-4H2v4H1v-9h1v4h18v-4h1v9zM708 141h-1v-4h-18v4h-1v-9h1v4h18v-4h1v9z" transform="translate(-312.000000, -1717.000000) translate(280.000000, 1633.000000) translate(0.000000, 52.000000) translate(32.000000, 32.000000) translate(188.000000, 72.000000)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
