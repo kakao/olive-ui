@@ -1,5 +1,6 @@
 import { Component, HostBinding, Input, OnInit, TemplateRef } from '@angular/core';
-import { OlvBoxType, OlvIconType } from './box.type';
+import { OlvBoxType } from './box.type';
+import { OlvIconType } from "../icon/icon.type";
 
 
 @Component({

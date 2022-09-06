@@ -1,21 +1,22 @@
 import { NgModule } from '@angular/core';
-import { OlvBoxComponent } from './box.component';
 import { CommonModule } from '@angular/common';
-import { OlvIconModule } from "../icon/icon.module";
+import { OlvIconComponent } from "./icon.component";
 import { MatIconModule } from "@angular/material/icon";
 
 @NgModule({
     declarations:[
-        OlvBoxComponent
+        OlvIconComponent
     ],
     imports: [
         CommonModule,
-        OlvIconModule,
-        MatIconModule
+        MatIconModule,
+
 
     ],
     exports:[
-        OlvBoxComponent
+        OlvIconComponent,
     ]
 })
-export class OlvBoxModule{}
+
+export class OlvIconModule{}
+

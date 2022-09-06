@@ -54,7 +54,7 @@ export class TypeComponent {
         this.isShown = ! this.isShown;
     }
     showStrongArea(){
-        this.isStrongShown = ! this.isStrongShown;
+        this.isStrongShown = !this.isStrongShown;
     }
 
 }

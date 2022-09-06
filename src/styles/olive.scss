@@ -3,15 +3,16 @@
     @apply border-y border-dashed w-full text-center h-40 pt-2 cursor-pointer text-gray-600 ;
 
 }
-pre {
-    @apply overflow-auto;
-    font-family: monospace !important;
-    font-size:13px !important;
-}
 
 pre.olvCode {
-    @apply border-0
+    @apply border-0;
 }
+
+pre code.hljs {
+    @apply py-24 px-15 leading-6 text-md overflow-auto;
+    font-family: unset ,inherit;
+}
+
 .mb-01{
     margin-bottom: -1px !important;
 }
@@ -60,4 +61,21 @@ pre.olvCode {
 }
 .custom .olv-footer-extra {
     @apply text-center  md:col-span-2
+}
+
+img.Side-Menu-Icon-Big-Component-Selected {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+img.Side-Menu-Icon-Big-Component-Selected-Copy {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+}
+
+img.Group-2 {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
 }

@@ -38,6 +38,6 @@ export class StyleComponent {
     }
 
     showArea(){
-        this.isShown = ! this.isShown;
+        this.isShown = !this.isShown;
     }
 }

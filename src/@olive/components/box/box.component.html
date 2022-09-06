@@ -1,11 +1,13 @@
 <div class="olv-box">
     <div class="olv-box-content">
-        <img src='./assets/images/icons/{{olvIcon}}.svg' class='mr-2 inline' *ngIf="olvIcon">
+        <olv-icon olvIcon="{{olvIcon}}" *ngIf="olvIcon" class='align-middle mb-1 inline-flex w-4'></olv-icon>
         <span class='text-md'>
             {{olvMessage}}
         </span>
         <ng-container *ngTemplateOutlet='olvMessageTmpl'></ng-container>
-        <button class='absolute top-1/3 right-30 w-20 text-center text-gray-600 hover:text-olive-500' *ngIf='olvCloseable'>X</button>
+        <button class='absolute top-1/3 right-30 w-20 text-center text-gray-600 hover:text-olive-500' *ngIf='olvCloseable'>
+            <olv-icon olvIcon="Delete" class='align-middle mb-1 inline-flex w-2'></olv-icon>
+        </button>
         <div class='text-sm mt-4 text-gray-600' *ngIf='olvContentMessage'>
             <div class='block width-100'><ng-container *ngTemplateOutlet="olvContentMessage"></ng-container></div>
         </div>

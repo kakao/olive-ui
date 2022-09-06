@@ -13,13 +13,13 @@
 <div class='my-4'>
 <olv-box olvBoxType='info'
          olvMessage='일련의 히스토리를 안내하거나, 중요도가 낮은 안내사항의 경우 사용'
-         olvIcon='icon-check'>
+         olvIcon='Success'>
 </olv-box>
 </div>
 <div class='my-4'>
 <olv-box olvBoxType='error'
          olvMessage='페이지의 상/하단에서 사용자에게 필수적으로 전달해야 할 안내사항이 있을 때 사용. Green보다 더 강조 및 경고의 정도가 큼'
-         olvIcon='icon-error'
+         olvIcon='Error'
          olvCloseable='true'>
 </olv-box>
 </div>
@@ -34,11 +34,11 @@
 </div>
 <div class='codeBtn'>
     <div class='inline-block mx-4 text-md hover:text-olive-400' (click)="showArea()" title='Copy Code'>
-        <mat-icon [svgIcon]="'CodeCopyIcon'" class='align-middle mb-1'></mat-icon>
-        <span class='ml-1'>Show Code</span>
+        <olv-icon olvIcon="CodeShowIcon" class='align-top'></olv-icon>
+        <span class='ml-1'>Show Codde</span>
     </div>
     <div class='inline-block mx-4 text-md hover:text-olive-400' (click)='copyText(basic)' title='Show Code'>
-       <mat-icon [svgIcon]="'CodeShowIcon'" class='align-middle mb-1'></mat-icon>
+        <olv-icon olvIcon="CodeCopyIcon" class='align-top'></olv-icon>
         <span class='ml-1'>Copy Code</span>
     </div>
 </div>
@@ -71,11 +71,11 @@
 
 <div class='codeBtn'>
     <div class='inline-block mx-4 text-md hover:text-olive-400' (click)="showStrongArea()" title='Copy Code'>
-        <mat-icon [svgIcon]="'CodeCopyIcon'" class='align-middle mb-1'></mat-icon>
+        <olv-icon olvIcon="CodeShowIcon" class='align-top'></olv-icon>
         <span class='ml-1'>Show Code</span>
     </div>
     <div class='inline-block mx-4 text-md hover:text-olive-400' (click)='copyText(strongBasic)' title='Show Code'>
-        <mat-icon [svgIcon]="'CodeShowIcon'" class='align-middle mb-1'></mat-icon>
+        <olv-icon olvIcon="CodeCopyIcon" class='align-top'></olv-icon>
         <span class='ml-1'>Copy Code</span>
     </div>
 </div>
