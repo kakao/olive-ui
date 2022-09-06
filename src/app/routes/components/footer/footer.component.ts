@@ -38,6 +38,6 @@ export class FooterComponent {
     }
 
     showArea(){
-        this.isShown = ! this.isShown;
+        this.isShown = !this.isShown;
     }
 }

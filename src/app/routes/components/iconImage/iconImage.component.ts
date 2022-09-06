@@ -1,7 +1,26 @@
 import { Component } from '@angular/core';
+import { ClipboardService } from "ngx-clipboard";
 
 @Component({
-  selector: 'style-color',
-  template: `<h1>Icon & Image</h1>`
+    selector: 'component-icon-image',
+    templateUrl: './iconImage.component.html'
 })
-export class IconImageComponent {}
+export class IconImageComponent {
+    public isShown: boolean = false;
+
+    Basic ="<olv-icon olvIcon=\"Check\"></olv-icon>";
+
+    constructor(
+        private clipboardService: ClipboardService
+    ) {}
+
+    copyCode(text){
+        let copyCode = "<olv-icon olvIcon=\""+text+"\"></olv-icon>"
+        this.clipboardService.copyFromContent(copyCode);
+        alert('code copied!')
+    }
+
+    showArea(){
+        this.isShown = !this.isShown;
+    }
+}
