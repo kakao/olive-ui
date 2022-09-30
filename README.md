@@ -1,6 +1,8 @@
-## OLIVE UI
+# OLIVE UI
 OLIVE UI는 [OLIVE Platform](https://olive.kakao.com/)의 디자인을 제공하는 오픈소스 프로젝트입니다.<br/>
-컴포넌트들은 매월 첫째 주 수요일에 추가하여 순차적으로 공개할 예정입니다.<br/>
+~~컴포넌트들은 매월 첫째 주 수요일에 추가하여 순차적으로 공개할 예정입니다.~~ ***프로젝트 컨셉 재논의로 홀딩합니다.***
+
+<br/>
 <hr />
 
 [![GitHub license](https://img.shields.io/badge/license-Apache2.0-blue.svg)](./LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
